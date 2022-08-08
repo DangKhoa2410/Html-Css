@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Travel reservation form</h1>
+    <h2>* denotes mandotory</h2>
+    <section>
+      <table>
+        <form action="">
+          <label for="Name">Full Name*:</label>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="name"
+                id="Name"
+                placeholder="FirstName Lastname"
+              />
+            </td>
+          </tr>
+
+          <td><label for="Email">Email address*:</label></td>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="Email"
+                id="Email"
+                placeholder="Email-address"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="Select Tour Package">Select Tour Package*:</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <select name="Tour" id="Select Tour Package">
+                Select Tour Package
+                <option value="" hidden="hidden">Goa</option>
+                <option value="Tour">Tour2d1n</option>
+                <option value="Tour">Tour5d4n</option>
+                <option value="Tour">Tour7d6n</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="Date">Arrival Date*:</label></td>
+          </tr>
+
+          <tr>
+            <td>
+              <input type="date" name="text" id="Date" placeholder="m/d/y" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="Number">Number of persons*:</label></td>
+          </tr>
+
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="text"
+                id="Number"
+                placeholder="Number text"
+              />
+            </td>
+          </tr>
+
+          <div>
+            <tr>
+              <td><label for="Avail">What would you want to avail*:</label></td>
+            </tr>
+
+            <table>
+              <tr>
+                <td>
+                  <label for="Boarding">Boarding</label>
+                  <input type="checkbox" name="text" id="Avail" />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="Fooding">Fooding</label>
+                  <input type="checkbox" name="text" id="Fooding" />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="Sight">Sight seeding</label>
+                  <input type="checkbox" name="text" id="Sight" />
+                </td>
+              </tr>
+            </table>
+
+            <tr>
+              <td><label for="code">Discout Coupon code:</label></td>
+            </tr>
+
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  name="code"
+                  id="code"
+                  placeholder="Unknown type"
+                />
+              </td>
+            </tr>
+
+            <table>
+              <tr>
+                <td>
+                  <input type="radio" name="text" id="Agree" />
+                  <label for="Agree">I Agree</label>
+                </td>
+  
+                <td>
+                  <input type="radio" name="text" id="disagree" />
+                  <label for="disagree">I Disagree</label>
+                </td>
+
+                <tr>
+                  <td>
+                    <input type="button" value="Complete resevation" />
+
+                  </td>
+                </tr>
+              </tr>
+            </table>
+          </div>
+        </form>
+      </table>
+    </section>
+  </body>
+</html>
